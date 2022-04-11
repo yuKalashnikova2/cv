@@ -159,40 +159,6 @@ button:hover {
     right: 0.5em;
   }
 
-
-  @media (min-width:320px) and (max-width: 568px) {
-    .container {
-        margin-top: 0;
-        border: 2px solid rgb(229, 226, 226);
-        border-radius:3%;
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
-        display: flex;
-        width: 80%;
-        height: 40px;
-        flex-direction: row;
-        position: absolute;
-        z-index: 1;
-      }
-    .convert {
-        max-width: 33em;
-        margin-left: 0;
-    }
-    .forAll {
-        max-width: 32em;
-      }
-
-    .wrapper {
-        max-width: 32em;
-      }
-    .btn img{
-        display: none;
-      }
-    h1, h2 {
-        font-size: 20px;
-      }
-  }
-
-  
   @media (max-width: 960px) {
     .slider_line {
         max-width: 33em;
@@ -219,4 +185,59 @@ button:hover {
     }
   }
 
+  @media (min-width:320px) and (max-width: 568px) {
+    .container {
+        margin: 0;
+        padding: 0;
+        border: 2px solid rgb(229, 226, 226);
+        border-radius:3%;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        display: flex;
+        width: 20em;
+        height: 100px;
+        flex-direction: row;
+        position: absolute;
+        z-index: 1;
+      }
+
+      .mail {
+        margin: 15px;
+    }
+      .github {
+        margin: 15px;
+    }
+      .slack {
+        margin: 15px;
+    }
+      .telegram {
+        margin: 15px;
+    }
+      .whatsapp {
+          margin: 15px;
+      }
+    .convert {
+        max-width: 29em;
+        margin-left: 0;
+    }
+    svg {
+        width: 30px;
+        height: 30px;
+    }
+    .forAll {
+        max-width: 24em;
+      }
+
+    .wrapper {
+        max-width: 32em;
+        margin-top: 4em;
+      }
+    .btn img{
+        display: none;
+      }
+    h1, h2 {
+        font-size: 20px;
+      }
+  }
+
   
+ 
